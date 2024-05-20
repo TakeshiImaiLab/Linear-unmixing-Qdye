@@ -10,15 +10,18 @@
 # What we need 
 To separate fluorescence signals for n types of dyes (Dye 1, …, and Dye n), we need to take images under n different spectral conditions (channels) that can best separate n types of dyes. 
   Then we need to obtain reference signals for each of the dyes, by which we can know how much crosstalk will occur between the channels.  
+  
 ![image](https://github.com/daichimori/Linear-unmixing-Qdye/assets/46915220/a0211868-cf46-429d-b811-76c52f619ee7)
 
 
 # Installation
   If you don't have Fiji, you can download it from here ( https://imagej.net/Fiji#Downloads).
+  
   To install the plugin, place the Linear_unmixing_QDye.jar file in the Fiji/plugins folder of ImageJ/Fiji. 
 
 # Workflow 
   Open the multichannel image and launch the plugin “Linear_unmixing_QDye”. When the following pop-up window appears, select the target multichannel image and click "OK".
+  
 ![image](https://github.com/daichimori/Linear-unmixing-Qdye/assets/46915220/22f2f070-5327-4dfc-801a-1fc468857e62)
 
   If each channel image opens in a separate window, press “OK” without selecting anything. A pop-up window will then appear. Select an image for each channel.
